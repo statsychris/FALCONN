@@ -1,5 +1,5 @@
-#include <falconn/falconn_global.h>
-#include <falconn/lsh_nn_table.h>
+#include <include/falconn/falconn_global.h>
+#include <include/falconn/lsh_nn_table.h>
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
