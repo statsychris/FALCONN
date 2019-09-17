@@ -20,7 +20,7 @@ if sys.platform == 'darwin':
 
 module = Extension(
     '_falconn',
-    sources=['src/python/wrapper/python_wrapper.cc'],
+    sources=['../wrapper/python_wrapper.cc'],
     extra_compile_args=extra_args,
     include_dirs=['include', 'external/eigen', 'external/pybind11/include', 'external/simple-serializer'])
 
