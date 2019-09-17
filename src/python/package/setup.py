@@ -1,12 +1,12 @@
 import os
 import sys
-
+'''
 try:
     import pypandoc
     long_description = pypandoc.convert('README.md', 'rst', format='md')
 except (IOError, ImportError):
     long_description = open('README.md').read()
-
+'''
 try:
     from setuptools import setup, find_packages, Extension
 except ImportError:
@@ -32,7 +32,7 @@ setup(
     url='http://falconn-lib.org/',
     description=
     'A library for similarity search over high-dimensional data based on Locality-Sensitive Hashing (LSH)',
-    long_description=long_description,
+    #long_description=long_description,
     license='MIT',
     keywords=
     'nearest neighbor search similarity lsh locality-sensitive hashing cosine distance euclidean',
